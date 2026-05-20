@@ -22,7 +22,7 @@ let max_No = c > e ? (d > c ? `d ${d} is greater Number` : `c ${c} is greater Nu
     : `e ${e} is greater Number`;*/
 
 //for same numbers
-let max_No1 = c >= e ? (d > c ? `d ${d} is greater Number` : `c ${c} is greater Number`)
+let max_No = c >= e ? (d > c ? `d ${d} is greater Number` : `c ${c} is greater Number`)
     : `e ${e} is greater Number`;
 console.log(max_No);
 
