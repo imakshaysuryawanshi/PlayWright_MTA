@@ -31,11 +31,48 @@ This repository contains hands-on practice materials, notes, and code examples f
 ```
 Playwright_MTA/
 │
-├── Chapt_01_Basics/
+├── chapter_01_js_basics/
 │   ├── js_basics.js                  # JavaScript basics examples
 │   ├── JS_Keywords.md                # Important JavaScript keywords
 │   ├── JS_Identifier_Rules.md        # Rules for naming identifiers
 │   └── VSCode_Windows_Shortcuts.md   # Useful VS Code shortcuts
+│
+├── chapter_02_js_concepts/
+│   ├── const_explained.js
+│   ├── let_explained.js
+│   ├── var_explained.js
+│   ├── hoisting_fn.js
+│   └── var_let_const_function.js
+│
+├── chapter_03_literal/
+│   ├── Backtick_single_double.js
+│   ├── String.js
+│   ├── null_undefined.js
+│   └── template_literal.js
+│
+├── chapter_04_operators/
+│   ├── assignment_operator.js
+│   ├── Confusing_Comparsion.js
+│   ├── Operator.js
+│   └── ternary_operator.js
+│
+├── chapter_05_if_else/
+│   ├── if_else.js
+│   ├── real_if_else.js
+│   ├── IQ_ifelse.js
+│   ├── Task_Que1.js
+│   ├── Task_Que2.js
+│   ├── Task_Que3.js
+│   ├── Task_Que4.js
+│   └── Task_Que5.js
+│
+├── chapter_06_Switch_Statement/
+│   ├── switch.js
+│   ├── No_Break.js
+│   ├── Default.js
+│   ├── Switch_Group.js
+│   ├── IQ_switch.js
+│   └── REAL_TIME_EXAMPLE.js
 │
 └── README.md                         # This file
 ```
@@ -74,7 +111,12 @@ npx playwright install
 
 | Chapter | Topic | Status |
 |---------|-------|--------|
-| Chapt_01_Basics | JavaScript Basics, Keywords & Identifier Rules | ✅ Complete |
+| Chapter 01 | JavaScript Basics, Keywords & Identifier Rules | ✅ Complete |
+| Chapter 02 | JavaScript Concepts (var, let, const, hoisting) | ✅ Complete |
+| Chapter 03 | JavaScript Literals & Template Strings | ✅ Complete |
+| Chapter 04 | Operators (Assignment, Comparison, Ternary) | ✅ Complete |
+| Chapter 05 | If/Else Conditional Statements | ✅ Complete |
+| Chapter 06 | Switch Statements & Best Practices | ✅ Complete |
 
 ---
 
@@ -101,7 +143,7 @@ Quick reference for essential VS Code shortcuts used in this project:
 | `F5` | Start debugging |
 | `Ctrl + `` ` | Toggle terminal |
 
-> 📄 For a complete list, see [`VSCode_Windows_Shortcuts.md`](Chapt_01_Basics/VSCode_Windows_Shortcuts.md)
+> 📄 For a complete list, see [`VSCode_Windows_Shortcuts.md`](chapter_01_js_basics/VSCode_Windows_Shortcuts.md)
 
 ---
 
@@ -122,7 +164,7 @@ JavaScript has many reserved keywords for different purposes:
 | Async | `async`, `await` |
 | Modules | `import`, `export` |
 
-> 📄 Full list with descriptions: [`JS_Keywords.md`](Chapt_01_Basics/JS_Keywords.md)
+> 📄 Full list with descriptions: [`JS_Keywords.md`](chapter_01_js_basics/JS_Keywords.md)
 
 ### Identifier Naming Rules
 
@@ -137,7 +179,7 @@ JavaScript has many reserved keywords for different purposes:
 - `PascalCase` → classes (`Person`, `UserProfile`)
 - `UPPER_SNAKE_CASE` → constants (`MAX_SIZE`, `PI`)
 
-> 📄 Detailed rules and examples: [`JS_Identifier_Rules.md`](Chapt_01_Basics/JS_Identifier_Rules.md)
+> 📄 Detailed rules and examples: [`JS_Identifier_Rules.md`](chapter_01_js_basics/JS_Identifier_Rules.md)
 
 ---
 
