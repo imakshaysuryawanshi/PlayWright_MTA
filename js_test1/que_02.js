@@ -12,4 +12,4 @@ function isValidJsBasicsIdentifier(name) {
 
 }
 
-console.log(isValidJsBasicsIdentifier("1k10$j"));
+console.log(isValidJsBasicsIdentifier("Helo91$A01"));

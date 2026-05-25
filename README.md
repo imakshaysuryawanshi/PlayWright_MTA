@@ -74,6 +74,13 @@ Playwright_MTA/
 │   ├── IQ_switch.js
 │   └── REAL_TIME_EXAMPLE.js
 │
+├── chapter_07_loops/
+│   └── 04_continue_in_loop.js        # continue statement examples
+│
+├── chapter_08_Arrays/
+│   ├── Arrays.02.js                  # Array creation methods
+│   └── Array_add_Remove_01.js        # Array splice operations
+│
 └── README.md                         # This file
 ```
 
@@ -117,6 +124,8 @@ npx playwright install
 | Chapter 04 | Operators (Assignment, Comparison, Ternary) | ✅ Complete |
 | Chapter 05 | If/Else Conditional Statements | ✅ Complete |
 | Chapter 06 | Switch Statements & Best Practices | ✅ Complete |
+| Chapter 07 | Loops (for, while, continue, break) | ✅ Complete |
+| Chapter 08 | Arrays (creation, manipulation) | ✅ Complete |
 
 ---
 
